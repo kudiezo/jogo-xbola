@@ -1,0 +1,101 @@
+body {
+	background: #069;
+	font: normal 12pt Arial;
+}
+
+header {
+	margin: auto;
+	text-align: center;
+	color: white;
+}
+
+section {
+	background: white;
+	width: 500px;
+	margin: auto;
+	border-radius: 10px;
+	padding: 10px;
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* CAMPO DO JOGO */
+#campo {
+	background: ;
+}
+#campo table#area {
+	margin: auto;
+	background: ;
+}
+#campo table#area tr td.lateral {
+	width: 25%;
+	text-align: center;
+}
+#campo table#area tr td.central {
+	width: 50%;
+}
+#campo table#area tr td.lateral span.bull {
+	font-size: 150pt;
+	color: #eee;
+}
+#campo table#area tr td.lateral span#bullJog1 {
+	font-size: 150pt;
+	color: #555;
+}
+#campo #campoTable {
+	background: yellow;
+	
+}
+#campo #campoTable tr {
+	background: #064;
+	
+}
+#campo #campoTable tr td {
+	width: 75px;
+	height: 75px;
+	font: bold 45pt Arial;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+	
+}
+#campo #campoTable tr td:hover {
+	background: rgba(0, 0, 0, .2);
+}
+
+h3 {
+	text-align: center;
+}
+
+/* ÁREA DE RESULTADOS */
+#res {
+	margin-top: 10px;
+	text-align: center; 
+}
+#res .res {
+	width: 45%;
+	position: relative;
+	background: #ddd;
+	display: inline-block;
+	border-radius: 100px;
+	padding: 10px;
+}
+#res .res .nomeJog {
+	font-weight: bold;
+	color: #069;
+}
+#res .res p {
+	font-size: 10pt;
+	margin: 5px;
+}
+#res .res #vez1, #res .res #vez2 {
+	font-size: 25pt;
+	color: #bbb;
+}
+#res .res #vez1 {
+	color: green;
+}
+footer {
+	text-align: center;
+	color: white;
+	font-style: italic;
+}
