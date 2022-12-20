@@ -89,8 +89,8 @@ function jogada(idJogada) {
 								win1.style.color = 'red'
 								winMsg2.style.color = '#006600'
 								winMsg1.style.color = '#aa0000'
-								winMsg2.innerHTML = `<strong>${players[1]}</strong>, ganhou`
-								winMsg1.innerHTML = `<strong>${players[0]}</strong>, perdeu`
+								winMsg2.innerHTML = `<strong>${players[1]}</strong> ganhou`
+								winMsg1.innerHTML = `<strong>${players[0]}</strong> perdeu`
 
 								var vit = document.querySelector('#vit2')
 								var v = Number(vit.innerText)
